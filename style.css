@@ -1,0 +1,85 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.title {
+  font-family: "Helvetica Neue";
+  src: url(helveticaneue-ultrathin.woff);
+  color: #b3b3b3;
+  text-align: center;
+  font-weight: 100;
+  font-size: 3rem;
+}
+.subtitle {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.top {
+  position: relative;
+  padding: 8px 8px 32px 8px;
+  background-color: #1d1d1d;
+}
+
+.top:after {
+  background: linear-gradient(-45deg, #ffffff 16px, transparent 0),
+    linear-gradient(45deg, #ffffff 16px, transparent 0);
+  background-position: left-bottom;
+  background-repeat: repeat-x;
+  background-size: 32px 32px;
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 0 10rem 0 10rem;
+}
+
+.info {
+  flex-basis: 45%;
+  padding: 2rem;
+}
+
+.bioBorder {
+  border-left: 1px solid gray;
+  padding-left: 1rem;
+  color: #cccccc;
+}
+
+.fill {
+  color: #cccccc;
+}
+
+.bio {
+  flex-basis: 50%;
+  padding: 2rem;
+}
+
+.img {
+  display: flex;
+  flex-basis: 15%;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  color: #81a9aa;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 110px;
+  max-height: 110px;
+}
